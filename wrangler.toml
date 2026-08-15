@@ -1,0 +1,11 @@
+name = "tg-precision-calculator"
+main = "src/index.js"
+compatibility_date = "2025-08-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "tg-calculator-history"
+database_id = "在Cloudflare创建D1后填写ID"
+
+[vars]
+WEBHOOK_PATH = "telegram-webhook"
